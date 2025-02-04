@@ -1,20 +1,21 @@
+// Governor-Nephi Bakare, First Program C
 #include <stdio.h>
 
-char city[] = "Ikeja";
+char city[15] = "Ikeja";
 
-char state[] = "Lagos";
+char state[15] = "Lagos";
 
-char country[] = "Nigeria";
+char country[15] = "Nigeria";
 
-char tribe1[] = "Yoruba";
+char tribe1[15] = "Yoruba";
 
-char tribe2[] = "Ekoi";
+char tribe2[15] = "Ekoi";
 
 int main(void){
 
     printf("I was born in the city %s.\n", city);
 
-    printf("Ikeja is one of th emain cities in the state %s.\n", state);
+    printf("Ikeja is one of the main cities in the state %s.\n", state);
     
     printf("Lagos is the most populated state in the country %s\n", country);
     

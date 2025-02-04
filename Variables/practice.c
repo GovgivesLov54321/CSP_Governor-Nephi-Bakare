@@ -1,6 +1,7 @@
+// Governor-Nephi Bakare, Variables Practice C
 #include <stdio.h>
 
-char name[] = "Governor-Nephi Bakare";
+char name[30] = "Governor-Nephi Bakare";
 
 int age = 14;
 
@@ -8,17 +9,17 @@ int small_number = 6;
 
 int big_number = 155;
 
-char breakfast[] = "nothing";
+char breakfast[20] = "nothing";
 
-char color[] = "blue";
+char color[10] = "blue";
 
-char school_name[] = "Utah County Academy of Sciences (UCAS)";
+char school_name[55] = "Utah County Academy of Sciences (UCAS)";
 
 int current_year = 2025;
 
-char eye_color[]= "dark brown";
+char eye_color[20]= "dark brown";
 
-char favorite_subject[]= "physical education (PE)";
+char favorite_subject[35]= "physical education (PE)";
 
 int main(void){
     printf("Hello! I am %s.\n", name);
