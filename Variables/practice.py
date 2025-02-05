@@ -1,4 +1,4 @@
-# Governor-Nephi Bakare, Variables Practice - Python
+# Governor-Nephi Bakare, Variables Practice Python
 
 my_name = "Governor-Nephi Bakare"
 

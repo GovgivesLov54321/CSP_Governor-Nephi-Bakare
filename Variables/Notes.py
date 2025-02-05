@@ -1,4 +1,4 @@
-# Governor-Nephi Bakare, Variable
+# Governor-Nephi Bakare, Variables Notes Python
 
 subject = input("What's your favorite subject: ")
 
