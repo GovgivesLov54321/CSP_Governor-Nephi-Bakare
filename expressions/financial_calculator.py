@@ -2,6 +2,10 @@
 
 # print welcome statement that welcomes user and tells what program does
 
+name = input("What is your first and last name?\n")
+
+print(f"Welcome to my progam, {name}. This program will calculate the percentage of your spendings of your income!\n")
+
 # ask what their income is (variable an input)
 income = float(input("What is your income?\n"))
 # ask what their rent is (variable an input)
