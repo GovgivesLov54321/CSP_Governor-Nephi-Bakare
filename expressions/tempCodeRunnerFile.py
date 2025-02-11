@@ -1,0 +1,1 @@
+# ask what their income is (variable an input)

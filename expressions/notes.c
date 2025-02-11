@@ -6,7 +6,7 @@
 char name[10] = "Gov";
 int num = 12;
 float pi = 3.1415926535;
-float expression = 5*double pow(double 7, double 2)/4;
+float expression = 5* double pow(double 7, double 2)/4;
 // + - * /
 int main(void){
     //num = 4;
