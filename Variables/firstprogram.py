@@ -1,21 +1,17 @@
 # Governor-Nephi Bakare, First Program Python
 
-city = "Ikeja"
+name = input("What is your name?: \n")
 
-state = "Lagos"
+city = input("What city/town are you from?: \n")
 
-country = "Nigeria"
+state = input("What state is the city/town in?: \n")
 
-tribe1 = "Yoruba"
+country = input("What country is that state in?: \n")
 
-tribe2 = "Ekoi"
+print("Your name is", name)
 
-print("I was born in the city", city)
+print("You are from the city/town", city)
 
-print("Ikeja is one of the main cities in the state", state)
+print("The city/town you're from is in the state", state)
     
-print("Lagos is the most populated state in the country", country)
-    
-print("My father is from the tribe", tribe1)
-    
-print("However, my mother is from the tribe", tribe2)
+print("The state you're from is in a country called", country)
