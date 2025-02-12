@@ -13,6 +13,7 @@ int main(void){
     scanf("%s", father_country);
     printf("That sounds like a cool place to visit! What country were you born in?: \n");
     scanf("%s", user_country);
+    printf("So your mother was born in %s, your father in %s, and you in %s.", mother_country, father_country, user_country);
 
     return 0;
 }

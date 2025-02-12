@@ -14,7 +14,7 @@ int equation5 = -2*(1*4-2/2)+(6+2-3);
 
 int equation6 = -1*((3-4*7)/5)-2*24/6;
 
-int equation7 = (3*pow(5,2)/15)-(5-pow(2,2));
+int equation7 = (3*(int)pow(5,2));
 
 int equation8 = (pow(1,4)*pow (2,2)+pow(3,3))-pow(2,5)/4;
 
