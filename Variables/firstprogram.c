@@ -1,25 +1,18 @@
 // Governor-Nephi Bakare, First Program C
 #include <stdio.h>
 
-char city[15] = "Ikeja";
+char mother_country[1000];
+char father_country[1000];
+char user_country[1000];
 
-char state[15] = "Lagos";
-
-char country[15] = "Nigeria";
-
-char tribe1[15] = "Yoruba";
-
-char tribe2[15] = "Ekoi";
 
 int main(void){
+    printf("What country was your mother born in?: \n");
+    scanf("%s", mother_country);
+    printf("That's cool! What country was your father born in?: \n");
+    scanf("%s", father_country);
+    printf("That sounds like a cool place to visit! What country were you born in?: \n");
+    scanf("%s", user_country);
 
-    printf("I was born in the city %s.\n", city);
-
-    printf("Ikeja is one of the main cities in the state %s.\n", state);
-    
-    printf("Lagos is the most populated state in the country %s\n", country);
-    
-    printf("My father is from the tribe %s.\n", tribe1);
-    
-    printf("However, my mother is from the tribe %s.\n", tribe2);
+    return 0;
 }
