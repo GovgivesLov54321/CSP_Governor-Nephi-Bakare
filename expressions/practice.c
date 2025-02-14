@@ -14,11 +14,11 @@ int equation5 = -2*(1*4-2/2)+(6+2-3);
 
 int equation6 = -1*((3-4*7)/5)-2*24/6;
 
-int equation7 = (3*(int)pow(5,2));
+int equation7 = (3*(int)pow(5,2) );
 
-int equation8 = (pow(1,4)*pow (2,2)+pow(3,3))-pow(2,5)/4;
+int equation8 = ((int)pow(1,4) *(int)pow(2,2) +(int)pow(3,3) ) -(int)pow(2,5) /4;
 
-int equation9 = pow((22/2-2*5),2)+pow((4-6/6),2);
+int equation9 = ((int)pow(22/2-2*5,2)) +(int)pow((4-6/6),2);
 
 int main(void){
     printf("%d\n", equation1);
