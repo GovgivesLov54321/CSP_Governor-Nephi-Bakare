@@ -29,12 +29,12 @@ int main(void){
     float spendings_percentage = spendings/income*100;
     float savings_percentage = savings/income*100;
 
-    printf("Your rent is $%f, which is %f percent of your income. \n", rent, rent_percentage);
-    printf("Your utilities is $%f, which is %f percent of your income. \n", utilities, utilities_percentage);
-    printf("Your groceries is $%f, which is %f percent of your income. \n", groceries, groceries_percentage);
-    printf("Your transportation is $%f, which is %f percent of your income. \n", transportation, transportation_percentage);
-    printf("Your spendings are $%f, which is %f percent of income. \n", spendings, spendings_percentage);
-    printf("Your savings are $%f, which is %f percent of your income. \n", savings, savings_percentage);
+    printf("Your rent is $%.2f, which is %.2f percent of your income. \n", rent, rent_percentage);
+    printf("Your utilities is $%.2f, which is %.2f percent of your income. \n", utilities, utilities_percentage);
+    printf("Your groceries is $%.2f, which is %.2f percent of your income. \n", groceries, groceries_percentage);
+    printf("Your transportation is $%.2f, which is %.2f percent of your income. \n", transportation, transportation_percentage);
+    printf("Your spendings are $%.2f, which is %.2f percent of income. \n", spendings, spendings_percentage);
+    printf("Your savings are $%.2f, which is %.2f percent of your income. \n", savings, savings_percentage);
     
     return 0;
 }

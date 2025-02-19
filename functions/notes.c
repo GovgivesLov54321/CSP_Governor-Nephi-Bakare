@@ -7,9 +7,8 @@ void add(int numOne, int numTwo){
     //printf("%d\n", numOne + numTwo);
     //return numOne+numTwo;
 }
-const char* word(char type[100]){
-    char choice[50];
-    printf("Please give me a %s";)
+void due(char assignment[75], char day[30]){
+    printf("The %s assignment is due %s.\n", assignment, day);
 }
 
 int main(void){
@@ -19,11 +18,8 @@ int main(void){
     //add(4,10);
     //add(4,10);
     //add(4,10);
-    //add(4,10);
-    //add(4,10);
-    //add(4,10);
-    //add(4,10);
-    //add(4,10);
-    //add(4,10);
+    due("Functions Notes", "Today");
+    due("Hello World Update", "Tomorrow");
+    due("Financial Calculator", "Friday");
     return 0;
 }
