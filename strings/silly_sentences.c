@@ -2,8 +2,7 @@
 #include <stdio.h>
 // empty string variables for use words (minimum 3)
 char character[100];
-char 
-
+char location[100]
 
 int main(void){
     // A welcome for the user telling them what the program is (print)

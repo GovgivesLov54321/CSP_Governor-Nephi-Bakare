@@ -1,5 +1,6 @@
 // Governor-Nephi Bakare, Strings Notes C#include <stdio.h>
 #include <stdio.h>
+#include <string.h>
 
 //char subject[60];
 //char name [20] = "Victoria";
