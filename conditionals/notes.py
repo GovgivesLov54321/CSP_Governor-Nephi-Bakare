@@ -20,10 +20,10 @@ else:
 #What do else statements do?
     print("Hi Mr. Bakare")
 else: #if the boolean is false, the else statement happens
-    print(f"Hi {name}!")
+print(f"Hi {name}!")
 
 #What kind of statement do you use if you have more than 2 needed outcomes?
-num = 2
+num = int(input("How many cookies are there:\n"))
 #computers read from top to bottom, check the least likely first
 if num == 0: #<= if always starts the conditional
     print("There are none.")
@@ -57,15 +57,14 @@ elif not num < 10: #Not changes to check if false
     print("This is a dingle digit number")
 
 #What are logical operators for?
-    #Allows the code to hangle more difficult questions...
-    #increases complexity
+    #Allows the code to hangle more difficult questions. . .increases complexity
 #What does a nested conditional statement do?
 if num <10:
     if num ==8:
         print("This prints at 8")
     else:
+        if num == 4:
+            ("There are only enough cookies left for me. . . sorry")
         print("The number is less than 10")
-#How do you write an if statement in C?
-#How do you write else statements in C?
-#How do you write elif/ else if statements in C?
-#How do you write the 3 logical operators in C?
+else:
+    print("The number is bigger than 10")
