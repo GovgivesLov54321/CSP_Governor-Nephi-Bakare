@@ -1,7 +1,7 @@
 # Governor-Nephi Bakare, Financial Calculator Update Python
 def info(cost, income, type):
     rent_percentage = cost/income*100
-    print(f"Your {type}is ${cost:.2f}, which is {rent_percentage} percent of your income.")
+    print(f"Your {type} is ${cost:.2f}, which is {rent_percentage} percent of your income.")
 
 # print welcome statement that welcomes user and tells what program does
 
@@ -9,6 +9,8 @@ name = input("What is your first and last name?\n")
 
 print(f"Welcome to my progam, {name}. This program will calculate the percentage of your spendings of your income!\n")
 
+def info(answer):
+    return float (f ""))
 
 
 # ask what their income is (variable an input)
