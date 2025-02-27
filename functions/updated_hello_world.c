@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 
-void due(char name[]){
-    
+void due(char name[100]){
+    printf()
     return 0;
 }

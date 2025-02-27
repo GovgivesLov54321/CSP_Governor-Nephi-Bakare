@@ -10,7 +10,7 @@ name = input("What is your first and last name?\n")
 print(f"Welcome to my progam, {name}. This program will calculate the percentage of your spendings of your income!\n")
 
 def info(answer):
-    return float (f ""))
+return float (f ""))
 
 
 # ask what their income is (variable an input)
