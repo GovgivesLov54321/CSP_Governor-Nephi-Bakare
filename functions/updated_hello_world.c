@@ -3,6 +3,6 @@
 
 
 void due(char name[100]){
-    printf()
+    printf("")
     return 0;
 }

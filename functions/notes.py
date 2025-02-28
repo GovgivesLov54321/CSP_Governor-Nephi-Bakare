@@ -20,8 +20,8 @@ def values(type):
     return input(f"Please give me a {type}:\n")
 
 
-name = values("names")
+name = values("name")
 place = values("place")
 verb = values("verb")
 
-print(f"{name} was realy fast getting to {place} because they {verb} the whole way there.")
+print(f"{name} was really fast getting to {place} because they {verb} the whole way there.")
