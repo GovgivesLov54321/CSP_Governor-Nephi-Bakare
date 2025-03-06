@@ -1,8 +1,15 @@
 # Governor-Nephi Bakare, Updated Hello World Python
 
-def values(name):
-    return input(f"What's your name?{name}")
+def values(info):
+    return input(f"Give the program a {info}:")
 
-print(f"Hello there {values}!")
+name = values("name")
+name = ("Jakob")
+name = ("Demetrius")
+name = ("Demetrius the Second")
+name = ("Demetrius the Third")
+name = ("Demetrius the Fourth")
 
-name = input
+ 
+
+print(f"Hello there, {name}!")
