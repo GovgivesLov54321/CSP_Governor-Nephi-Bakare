@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
+char name [1000];
 float user_input(char*pregunta){
     float value;
     printf("%s", pregunta);
@@ -10,7 +11,7 @@ float user_input(char*pregunta){
 }
 void print_result(char*item_name, float numero, float income){
     float percentage = (numero/income)*100;
-    printf("Your monthly %s is $%.2f which is %.2f%% of your income!\n", item_name, numero, percentage);
+    printf("%s, your monthly %s is $%.2f which is %.2f%% of your income!\n", name, item_name, numero, percentage);
 }
 int main(void){ 
     printf("Hello! What is your name? (please only answer with one word): \n");
