@@ -12,14 +12,11 @@ int main(void){
     if (age >= 18){
         printf("You're old enough to vote in the USA!");
     }
-    if (age >= 18){
-        printf("You're old enough to go to school in the USA!");
-    }
-    if (age >= 15){
+        else if (age >= 15){
         printf("You're old enough to get your learner's permit in Utah!\n");
-    }
-    elif (age >= 4){
+        }
+        else if (age >= 4){
         printf("You're old enough to go to school in the USA!");
-    }
+        }
     return 0;
 }
