@@ -18,5 +18,8 @@ int main(void){
         else if (age >= 4){
         printf("You're old enough to go to school in the USA!");
         }
+        else{
+            printf("You can't do anything! :P\n");
+        }
     return 0;
 }
