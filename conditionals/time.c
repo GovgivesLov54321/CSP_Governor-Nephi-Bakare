@@ -23,7 +23,7 @@ int main(void){
 
     struct tm * tm_struct = localtime(&now);
     int hour = tm_struct->tm_hour; //military time! (0-23)
-    printf("%d\n", hour);
+    //printf("%d\n", hour);
 
 
 
