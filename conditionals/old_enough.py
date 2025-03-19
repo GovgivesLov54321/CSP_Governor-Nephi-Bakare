@@ -6,6 +6,8 @@ age = int(input("How old are you, user?\n"))
 
 if age >= 18:
     print("You're old enough to vote in the USA! 🔥")
+elif age >= 16:
+    print("You're old enough to have a driver's license! ;)")
 elif age >= 15:
     print("You're old enough to have a learner's permit! :O")
 elif age >= 4:
