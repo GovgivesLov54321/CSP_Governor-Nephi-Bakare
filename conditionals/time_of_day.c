@@ -10,9 +10,9 @@ int main(void){
     int ahora = tm_struct->tm_hour;
     printf("%d\n", ahora);
 
-    if (ahora <= 11,59){
+    if (ahora <= 12){
         printf("TOP OF THE MORNING TO YOU!");
-    }else if (ahora <= 16){
+    }else if (ahora <= 4){
         printf("Good afternoon, user!");
     }else{
         printf("Good evening, user!");
