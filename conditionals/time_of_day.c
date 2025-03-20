@@ -5,13 +5,17 @@
 
 
 int main(void){
-    time_t rawtime;
-    struct tm * timeinfo;
+    time_t now = time(NULL);
+    struct tm * tm_struct = localtime(&now);
+    int ahora = tm_struct->tm_hour;
+    printf("%d\n", ahora);
 
-    int horas = time(NULL);
-
-    if (horas <= 12){
+    if (ahora <= 11,59){
         printf("TOP OF THE MORNING TO YOU!");
-    }       
+    }else if (ahora <= 16){
+        printf("Good afternoon, user!");
+    }else{
+        printf("Good evening, user!");
+    }
     return 0;
 }
