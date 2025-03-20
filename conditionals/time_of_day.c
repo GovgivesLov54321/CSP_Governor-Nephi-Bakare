@@ -12,7 +12,7 @@ int main(void){
 
     if (ahora <= 12){
         printf("TOP OF THE MORNING TO YOU!");
-    }else if (ahora <= 4){
+    }else if (ahora <= 16){
         printf("Good afternoon, user!");
     }else{
         printf("Good evening, user!");
