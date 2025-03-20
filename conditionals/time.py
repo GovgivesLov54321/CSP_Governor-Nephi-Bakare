@@ -3,16 +3,16 @@ import time
 
 #find first instance of in programming
 first_time = time.gmtime()
-#print(first_time)
+print(first_time)
 
 #Current time in seconds
 current = time.time()
-#print(current)
-#print(current) #seconds since January 1, 1970
+print(current)
+print(current) #seconds since January 1, 1970
 
 #current date and time like we see it normally
 now = time.ctime(current)
-#print(now)
+print(now)
 
 #get just a part of the time
 local_time = time.localtime(current)
