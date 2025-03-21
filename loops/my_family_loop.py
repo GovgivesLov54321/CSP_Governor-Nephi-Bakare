@@ -2,3 +2,5 @@
 
 primos = ["Ewaoluwa", "Daracemi", "Fola"]
 
+for primo in primos:
+    print(f"Guten tag, {primo}!")
