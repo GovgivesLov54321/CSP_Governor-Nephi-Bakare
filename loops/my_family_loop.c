@@ -4,6 +4,6 @@
 
 int main(void){
     char hermanitos[][1000] = {"Kehinde, Taiwo, Idowu"};
-    printf("Hello there, %s!\n", hermanitos []);
+    printf("Hello there, %s!\n", hermanitos [0]);
     return 0;
 }
