@@ -1,4 +1,4 @@
-// Governor-Nephi Bakare
+// Governor-Nephi Bakare, FizzBuzz C
 #include <stdio.h>
 #include <math.h>
 
