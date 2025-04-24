@@ -1,5 +1,6 @@
-// Hawks: Trae Young = https://fadeawayworld.net/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTk4NDgwNzY3NjA3NjQ2MTE5/usatsi_20538503.webp
-// Celtics: Jayson Tatum = https://fadeawayworld.net/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTk1MDg3Mjc1ODI5MjQxNTcw/usatsi_19732023.webp
-// Nets: Cam Thomas = https://fadeawayworld.net/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTkzNDY0MTE0NTQwOTc5OTAx/usatsi_19261594.webp
-// Hornets: Lamelo Ball = https://fadeawayworld.net/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MjAzOTgwNjMxNjA3MDkyNzMx/usatsi_22365299.webp
-//site for all players = https://fadeawayworld.net/nba/every-nba-teams-best-player-for-the-2024-25-season
+// Denver Nuggets: Nikola Jokic = https://static01.nyt.com/athletic/uploads/wp/2023/10/07085025/231007-Nikola-Jokic-scaled-e1696683052376.jpg
+// Milwaukee Bucks: Giannis Antetokounmpo = https://img.buzzfeed.com/buzzfeed-static/static/2021-04/26/19/asset/e498764414c5/anigif_sub-buzz-248-1619464041-1.gif
+// Boston Celtics: Jayson Tatum = https://upload.wikimedia.org/wikipedia/commons/1/1e/Jayson_Tatum_%2851839569977%29_%28cropped%29.jpg
+// Oklahoma City Thunder: Shai Gilgeous-Alexander = https://kfor.com/wp-content/uploads/sites/3/2022/11/2022-OKC-Mil-SGA.jpg?w=612
+// Los Angeles Lakers: LeBron James = https://athlonsports.com/.image/t_share/MjE0MjU2ODMxMDI1OTE1Njg0/usatsi_25908376.jpg
+let images = ["https://static01.nyt.com/athletic/uploads/wp/2023/10/07085025/231007-Nikola-Jokic-scaled-e1696683052376.jpg", "https://kfor.com/wp-content/uploads/sites/3/2022/11/2022-OKC-Mil-SGA.jpg?w=612", "https://img.buzzfeed.com/buzzfeed-static/static/2021-04/26/19/asset/e498764414c5/anigif_sub-buzz-248-1619464041-1.gif", "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jayson_Tatum_%2851839569977%29_%28cropped%29.jpg", "https://athlonsports.com/.image/t_share/MjE0MjU2ODMxMDI1OTE1Njg0/usatsi_25908376.jpg"]
