@@ -2,20 +2,30 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Javascript Notes</title>
-        <script src = "notes.js"></script>
+        <title>JavaScript Notes</title>
+        <script src="notes.js"></script>
         <style>
             img{
-                height: 500px;
+                height: 200px;
                 width: auto;
+            }
+            #lost{
+                display: none;
             }
         </style>
     </head>
     <body>
-        <h1 id="title">Javascript Notes</h1>
-        <p onclick ="pop()">Don't Click Me</p>
-        <button id ="btn" onclick="hello()">Click Me ;]</button>
+        <h1 id="title" onclick="show()" >JavaScript Notes</h1>
+        <p onclick="pop()">Don't Click Me :[</p>
+        <button id="btn" onclick="hello()">Click Me!</button>
         <br>
-        <img src="https://photographyproject.uk/wp-content/uploads/2022/01/23-2103-post/Ali-vs-Liston.jpg" alt="Muhammad Ali">
+        <img id="img" 
+        onmouseover="change()"
+        src="https://www.pbs.org/wnet/nature/files/2014/10/HoneyBadger-Main-e1415392112925-1280x720.jpg" alt="honey badger">
+        <br>
+        <img id=lost src="https://images.squarespace-cdn.com/content/v1/5f848386168b1f0d06746205/1609440381754-DTY85IZXLP68KTH32WUB/pexels-cajko-423604.jpg" alt="dandelion">
     </body>
 </html>
+
+
+<!-- onmouseenter = "hover()" onmouseleave = "leave()
