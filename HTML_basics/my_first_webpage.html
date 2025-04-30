@@ -14,7 +14,8 @@
             padding: 5px;
             margin: 5px;
             display: grid;
-            grid-template-rows: 1fr 1.5fr;
+            grid-template-columns: 5fr 5fr;
+            text-align: center;
             }
             #Title{
             text-align: center;
@@ -27,12 +28,20 @@
                 color:black
             }
             #img-container1, #img-container2{
-                margin: 5px;
+                display: flex;
+                justify-content: center;
             }
             #photograph{
                 width: 400px;
                 height: 300px;
             }
+            #defense{
+                display: none;
+            }
+            .imgcaption{
+                text-align: center;
+            }
+           
         </style>
     </head>
     <head>
@@ -92,19 +101,23 @@
                     </dt>
                 </dl>
             </div>
-            <div>
-                <button id = "button" onclick = "show()">About my favorite player</button>
+            <div> 
+            
+            <div> 
+                <img src="https://www.dailynews.com/wp-content/uploads/2025/04/imageedit_1_5247256343.jpg?w=620" alt="Kawhi Leonard directing" width = 35%>
+                <p>Image from: Los Angeles Daily News</p>
+                <p>My favorite player of all time is Kawhi Leonard. I try to model my playstyle after his, since he plays strong and is mainly known as a menace on defense. He plays the small forward and power forward positions, and stands tall at 6'7, as well as large at 225 pounds of muscle. He currently plays on the Los Angeles Clippers, and is currently their best player.</p>
+            </div>
+            <button id = "button" onclick = "show()">My favorite Kawhi play</button> 
+            <div id = "defense">
+               
                 <br>
                 <img src="https://nypost.com/wp-content/uploads/sites/2/2020/09/kawhi.jpg?quality=75&strip=all" alt="Kawhi Leonard single finger block" height="300px">
                 <p>Image from: New York Post</p>
                 <p>One of my favorite defensive plays by Kawhi</p>
-                
-
-                </div> 
-                <img src="https://www.dailynews.com/wp-content/uploads/2025/04/imageedit_1_5247256343.jpg?w=620" alt="Kawhi Leonard directing" width = 35%>
-                <p>Image from: Los Angeles Daily News</p>
-                <p>My favorite player of all time is Kawhi Leonard. I try to model my playstyle after his, since he plays strong and is mainly known as a menace on defense. He plays the small forward and power forward positions, and stands tall at 6'7, as well as large at 225 pounds of muscle. He currently plays on the Los Angeles Clippers, and is currently their best player.</p>
-           
+                <p>He literally blocked Jamal Murray with one finger 😮</p>
+            </div> 
+            </div>
         </body>
     </head>
 </html>
