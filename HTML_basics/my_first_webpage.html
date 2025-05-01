@@ -14,7 +14,7 @@
             padding: 5px;
             margin: 5px;
             display: grid;
-            grid-template-columns: 5fr 5fr;
+            grid-template-columns: 3fr 5fr;
             text-align: center;
             }
             #Title{
@@ -41,7 +41,23 @@
             .imgcaption{
                 text-align: center;
             }
-           
+            h2, h3{
+                padding-left: 10%;
+                padding-top: 5%;
+            }
+            #button{
+                color: rgba(53, 12, 199, 0.767);
+            }
+            #sourcenaismith{
+                padding-left: 45px;
+            }
+            #sourcenba{
+                padding-left: 20px;
+            }
+            #nbabest{
+                justify-content: center;
+            }
+
         </style>
     </head>
     <head>
@@ -55,9 +71,9 @@
         </p>
         <div id = "img-container1">
         <div id ="images">
-            <p>James Naismith</p>
+            <p id = "sourcenaismith">James Naismith</p>
             <img src="https://cdn.britannica.com/57/233657-004-69422657/James-Naismith.jpg" alt="James Naismith holing a ball" height="350px">
-            <p>Image from: Britannica</p>
+            <p id = "sourcenaismith">Image from: Britannica</p>
         </div>
         </div>
         <h3>What Happened After?</h2>
@@ -65,9 +81,9 @@
             </p>
             <div id = "img-container2">
             <div id ="images">
-                <p>Logo of the NBA</p>
+                <p id = "sourcenba">Logo of the NBA</p>
                 <img src="https://www.citypng.com/public/uploads/preview/hd-nba-vertical-logo-transparent-png-701751694774088jihanqehhf.png" alt="Logo of the National Basketball Association" height="200px">
-                <p>Image from: CityPNG</p>
+                <p id = "sourcenba">Image from: CityPNG</p>
             </div>
             </div>
             <div id = "Lists">
@@ -85,7 +101,7 @@
             </div>
         <h3>NBA Today</h3>
             <p>Today the NBA has: 30 different teams; a Western and Eastern Conference; and six divisions.</p>
-            <div>
+            <div id = "nbabest">
                 <p>The (arguably) best five players this season are (best=>worst) Nikola Jokic (Denver Nuggets), Shai Gilgeous-Alexander (Oklahoma City Thunder), Giannis Antetokounmpo (Milwaukee Bucks), Luka Doncic (Los Angeles Lakers), and Jayson Tatum (Boston Celtics).</p>
                 <img id = "photograph"
                 onmouseover="change()"
@@ -97,7 +113,7 @@
             <div>
                 <dl>
                     <dt>
-                        <a href = "https://www.google.com/search?q=nba+standings&rlz=1C1ONGR_enUS1156US1156&oq=nba+standings&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIGCAIQRRg80gEIMjg3N2owajSoAgCwAgA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on#sie=lg;/g/11y43tsvgm;3;/m/05jvx;st;fp;1;;;"target = "_blank">Site to the 2024-2025 win/loss records of the NBA teams</a>
+                        <a href = "https://www.google.com/search?q=nba+standings&rlz=1C1ONGR_enUS1156US1156&oq=nba+standings&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIGCAIQRRg80gEIMjg3N2owajSoAgCwAgA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on#sie=lg;/g/11y43tsvgm;3;/m/05jvx;st;fp;1;;;"target = "_blank">Site to win/loss records of the NBA teams for the 2024-25 season</a>
                     </dt>
                 </dl>
             </div>
@@ -106,9 +122,9 @@
             <div> 
                 <img src="https://www.dailynews.com/wp-content/uploads/2025/04/imageedit_1_5247256343.jpg?w=620" alt="Kawhi Leonard directing" width = 35%>
                 <p>Image from: Los Angeles Daily News</p>
-                <p>My favorite player of all time is Kawhi Leonard. I try to model my playstyle after his, since he plays strong and is mainly known as a menace on defense. He plays the small forward and power forward positions, and stands tall at 6'7, as well as large at 225 pounds of muscle. He currently plays on the Los Angeles Clippers, and is currently their best player.</p>
+                <p>My favorite player of all time is Kawhi Leonard. I try to model my playstyle after his, since he plays strong and is mainly known as a menace on defense. He plays the small forward and power forward positions, and stands tall at 6'7, as well as large at 225 pounds of muscle. He currently plays (#2 jersey) on the Los Angeles Clippers, and is currently their best player.</p>
             </div>
-            <button id = "button" onclick = "show()">My favorite Kawhi play</button> 
+            <button id = "button" onclick = "show()">Click to see one of my favorite Kawhi plays</button> 
             <div id = "defense">
                
                 <br>
