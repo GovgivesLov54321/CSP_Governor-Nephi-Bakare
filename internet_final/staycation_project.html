@@ -1,16 +1,168 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Capitol Reef National Park</title>
-        <script src="staycation_project.js"></script>
-        <style>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Explore Capitol Reef National Park for your next staycation – hiking, views, and serenity in the Utah desert." />
+  <title>Capitol Reef Staycation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
 
-        </style>
-    </head>
-    <head>
-        <body>
-            
-        </body>
-    </head>
+  <style>
+    :root {
+      --clay-red: #D95D39;
+      --sunset-orange: #F28C28;
+      --golden-sand: #F6BD60;
+      --coral-blush: #FFDDD2;
+      --desert-rose: #F28482;
+      --text-dark: #2c2c2c;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--coral-blush);
+      color: var(--text-dark);
+    }
+
+    header {
+      background-color: var(--clay-red);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 30px;
+    }
+
+    .description {
+      font-size: 1.2em;
+      line-height: 1.6;
+      background-color: white;
+      padding: 20px;
+      border-left: 6px solid var(--sunset-orange);
+      border-radius: 10px;
+    }
+
+    .images {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    .images img {
+      width: 32%;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .images img:hover {
+      transform: scale(1.05);
+    }
+
+    .hover-img {
+      transition: all 0.4s ease-in-out;
+    }
+
+    .reasons {
+      background-color: var(--golden-sand);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1em;
+      background-color: var(--desert-rose);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: var(--clay-red);
+    }
+
+    .extra-info {
+      margin-top: 15px;
+      display: none;
+      background-color: var(--sunset-orange);
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .images {
+        flex-direction: column;
+      }
+
+      .images img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Capitol Reef Staycation Adventure</header>
+
+  <div class="container">
+    <section class="description">
+      <p>Capitol Reef National Park is a hidden gem in the heart of southern Utah. With its towering sandstone cliffs, ancient petroglyphs, and vast scenic drives, it's a perfect place to escape and recharge. Unlike more crowded parks, Capitol Reef offers serenity and unspoiled beauty ideal for a peaceful staycation.</p>
+    </section>
+
+    <section class="images">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Capitol_Reef_National_Park_in_Utah.jpg" alt="Capitol Reef cliffs">
+      <img class="hover-img" src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Capitol_Reef_National_Park_view.jpg" alt="Capitol Reef scenic view"
+           onmouseover="this.src='https://upload.wikimedia.org/wikipedia/commons/e/ed/Capitol_Reef_National_Park_waterpocket_fold.jpg';"
+           onmouseout="this.src='https://upload.wikimedia.org/wikipedia/commons/1/1d/Capitol_Reef_National_Park_view.jpg';">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Capitol_Reef_Panorama.jpg" alt="Capitol Reef panoramic view">
+    </section>
+
+    <section class="reasons">
+      <h3>Top Reasons to Visit Capitol Reef</h3>
+      <ul>
+        <li>Stunning red rock landscapes and rock formations</li>
+        <li>Explore historic Fruita orchards and scenic drives</li>
+        <li>Hiking trails for all skill levels</li>
+        <li>Stargazing under one of the darkest skies in the U.S.</li>
+      </ul>
+    </section>
+
+    <section>
+      <button onclick="toggleInfo()">Show More Info</button>
+      <div class="extra-info" id="extraInfo">
+        <p>Capitol Reef is known for its Waterpocket Fold, a 100-mile wrinkle in the Earth's crust. The park is also home to fascinating geology, wildlife, and the charming Fruita district where visitors can pick seasonal fruit. It’s the perfect destination for nature lovers, photographers, and families alike.</p>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function toggleInfo() {
+      const info = document.getElementById('extraInfo');
+      const button = document.querySelector('button');
+
+      if (info.style.display === 'none' || info.style.display === '') {
+        info.style.display = 'block';
+        button.textContent = 'Hide Info';
+      } else {
+        info.style.display = 'none';
+        button.textContent = 'Show More Info';
+      }
+    }
+  </script>
+</body>
 </html>
